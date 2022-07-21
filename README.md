@@ -11,7 +11,7 @@ before getting a jwt token, you need to add a user to the database, you can use 
 username : testtest       
 password : $2a$10$1Lt3481whvkkrI5SL6DqGuUG2egRfkBqWoEySpzs5nTP.xfmvWyT2
 ```
-after that, we can make a POST request to our End-Point with the following JSON:
+after that, we can make a POST request to our End-Point for exapmple `localhost:8079/login` with the following JSON:
 ```
 {
 "username" : "testtest",
