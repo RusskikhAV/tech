@@ -33,6 +33,7 @@ where by GET request with JSON body:
 we will be adding messages to the database.
 
 where by GET request with JSON body:
+
 {
 "username":"testtest",
 "message" : "history 10"
