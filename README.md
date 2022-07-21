@@ -22,7 +22,7 @@ the server, after processing the request, will give us a token, of the form:
 `"token": "eyJ...............w4"`
 
 Once we receive the token, we can use it to make a GET and POST request to our server `localhost:8079/message` address,
-where by GET request with JSON body:
+where by POST request with JSON body:
 ```
 {
 "username":"testtest",
